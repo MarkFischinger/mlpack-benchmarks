@@ -1,0 +1,25 @@
+(scaled 4, x < 4)
+Scaled Pade Approximation Cycles: 78, Average Relative Error: 0.370447
+Lambda1 Cycles: 37, Average Relative Error: 0.035437
+Combined Approximation Cycles: 51, Average Relative Error: 0.035862
+Dummy output to keep computations: Scaled: 12151433.667698, Lambda1: 12169625.735147, Combined: 12166643.376498
+
+
+(scaled 4, x < 3)
+Scaled Pade Approximation Cycles: 75, Average Relative Error: 0.370447
+Lambda1 Cycles: 38, Average Relative Error: 0.035437
+Combined Approximation Cycles: 48, Average Relative Error: 0.035487
+Dummy output to keep computations: Scaled: 12151433.667698, Lambda1: 12169625.735147, Combined: 12168783.976987
+
+
+(non scaled, x < 3)
+Scaled Pade Approximation Cycles: 75, Average Relative Error: 0.370447
+Lambda1 Cycles: 39, Average Relative Error: 0.035437
+Combined Approximation Cycles: 37, Average Relative Error: 0.054724
+Dummy output to keep computations: Scaled: 12151433.667698, Lambda1: 12169625.735147, Combined: 12465268.685808
+
+(non scaled, x < 4)
+Scaled Pade Approximation Cycles: 77, Average Relative Error: 0.370447
+Lambda1 Cycles: 39, Average Relative Error: 0.035437
+Combined Approximation Cycles: 43, Average Relative Error: 0.159485
+Dummy output to keep computations: Scaled: 12151433.667698, Lambda1: 12169625.735147, Combined: 12986842.641793

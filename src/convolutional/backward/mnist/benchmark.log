@@ -1,0 +1,10 @@
+(original)
+100% - 175.855s/epoch; 232ms/step; loss: 9.42397
+Validation loss: 10191.9.
+Time elapsed: 179360ms
+
+
+(updated)
+100% - 170.198s/epoch; 224ms/step; loss: 9.42397
+Validation loss: 10191.9
+Time elapsed: 170198ms

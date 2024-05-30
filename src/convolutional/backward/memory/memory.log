@@ -1,0 +1,2 @@
+Average time to compute convolution with original function: 3.45239 s
+Average time to compute convolution with optimized function: 3.05473 s

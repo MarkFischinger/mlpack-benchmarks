@@ -1,0 +1,16 @@
+# Ignore all files
+*
+
+# Don't ignore directories
+!*/
+
+# Don't ignore files with these extensions
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+!*.cc
+!*.txt
+!*.log
+!*.md
+!*.gitignore

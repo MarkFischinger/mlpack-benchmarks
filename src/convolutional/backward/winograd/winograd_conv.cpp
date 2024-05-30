@@ -48,7 +48,6 @@ void Convolution(const InMatType& input,
     }
 }
 
-// Define the size of the input, filter, and output
 const int N = 1024; // Size of the input matrix (NxN)
 const int M = 256;  // Size of the filter matrix (MxM)
 const int C = 1024; // Output size (CxN)
@@ -56,7 +55,6 @@ const int C = 1024; // Output size (CxN)
 void winogradAlgorithm(const std::vector<std::vector<float>>& input,
                        const std::vector<std::vector<float>>& filter,
                        std::vector<std::vector<float>>& output) {
-    // Thread-local storage for partial results
     #pragma omp parallel
     {
         #pragma omp for collapse(2)
@@ -87,12 +85,10 @@ void winogradAlgorithm(const std::vector<std::vector<float>>& input,
 }
 
 int main() {
-    // Initialize matrices
-    std::vector<std::vector<float>> input(N, std::vector<float>(N, 1.0)); // Example initialization
-    std::vector<std::vector<float>> filter(M, std::vector<float>(M, 1.0)); // Example initialization
+    std::vector<std::vector<float>> input(N, std::vector<float>(N, 1.0)); 
+    std::vector<std::vector<float>> filter(M, std::vector<float>(M, 1.0)); 
     std::vector<std::vector<float>> output(N, std::vector<float>(N, 0.0));
 
-    // Benchmarking the kernel execution
     double start_time = omp_get_wtime();
     winogradAlgorithm(input, filter, output);
     double end_time = omp_get_wtime();

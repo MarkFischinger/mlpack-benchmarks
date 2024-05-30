@@ -1,10 +1,5 @@
-#define MLPACK_ENABLE_ANN_SERIALIZATION
 #include <mlpack.hpp>
 #include <chrono>
-
-#if ((ENS_VERSION_MAJOR < 2) || ((ENS_VERSION_MAJOR == 2) && (ENS_VERSION_MINOR < 13)))
-  #error "need ensmallen version 2.13.0 or later"
-#endif
 
 using namespace arma;
 using namespace mlpack;
@@ -63,16 +58,13 @@ int main()
                          0  
   );
 
-
   model.Add<LeakyReLU>();
-
 
   model.Add<MaxPooling>(2,
                         2, 
                         2,
                         2, 
                         true);
-
 
   model.Add<Convolution>(16, 
                          5,  

@@ -1,10 +1,10 @@
-(original)
+(original) -rwxr-xr-x 1 mark mark 1.3M mnist (1362600)
 100% - 175.855s/epoch; 232ms/step; loss: 9.42397
 Validation loss: 10191.9.
 Time elapsed: 179360ms
 
 
-(updated)
+(updated) 1362832
 100% - 170.198s/epoch; 224ms/step; loss: 9.42397
 Validation loss: 10191.9
 Time elapsed: 170198ms

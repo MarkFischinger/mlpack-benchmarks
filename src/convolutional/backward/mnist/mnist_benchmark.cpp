@@ -159,5 +159,5 @@ int main()
   predLabels.save("results.csv", arma::csv_ascii);
 
   cout << "Neural network model is saved to \"model.bin\"" << endl;
-  cout << "Finished" << endl;
+
 }

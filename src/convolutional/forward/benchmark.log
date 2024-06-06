@@ -1,0 +1,5 @@
+Time taken by forwardPass: 0.00129306 s
+Time taken by traditionalConvolution: 0.00135987 s
+
+Time taken by forwardPass: 0.00106406 s
+Time taken by traditionalConvolution: 0.00111862 s
